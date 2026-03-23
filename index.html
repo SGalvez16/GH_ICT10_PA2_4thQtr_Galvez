@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyxscript.net/releases/2026.3.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2026.3.1/core.js"></script>
+    <title>Exercise 17</title>
+    <style>
+        div {
+            background-color: rgba(255, 148, 148, 0.682);
+            color: white;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div id="div">
+    <h1>Dog Attributes</h1>
+    <form>
+        <input type="text" id="name" placeholder="Enter name"><br>
+        <input type="number" id="age" placeholder="Enter age"><br>
+        <input type="text" id="color" placeholder="Enter color"><br>
+        <input type="text" id="breed" placeholder="Enter breed"><br>
+        <div id="output"></div>
+        <input type="button" py-click="dog" value="See results">
+    </form>
+    </div>
+</div>
+    <py-script src="main.py"></py-script>
+</body>
+</html>
